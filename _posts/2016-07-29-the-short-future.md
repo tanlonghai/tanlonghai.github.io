@@ -1,0 +1,22 @@
+---
+layout: post
+title: 短期内的事情
+category: thinking
+---
+
+折腾了一天，终于是把昨天晚上的想法付诸实现了。还是有感于自己最近几年几乎没有做什么实事。而最近阅读到的许多书籍涉及的却是小时梦想中的人。就当是为了对得起小时候的梦想吧，改掉之前的懒散气息，默默的加油哦。
+
+那么，第一件事情先把下月十五号之前的任务完成。
+
+
+今后，我也会经常在这里记录开发中遇到和解决的各种问题，与技术有关的思考，就当是记事本啦。
+
+[GitHub]: https://github.com/
+[jekyll]: https://github.com/mojombo/jekyll
+[Markdown]: http://daringfireball.net/projects/markdown/
+[WordPress]: http://wordpress.org/
+[Disqus]: http://disqus.com/
+[Google Picasa]: https://picasaweb.google.com/
+[Google Custom Search]: http://www.google.com/cse/
+[HighlightJS]: http://softwaremaniacs.org/soft/highlight/en/
+[Gravatar]: http://en.gravatar.com/
