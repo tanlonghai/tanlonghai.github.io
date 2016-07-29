@@ -3,12 +3,26 @@
 	<title>LH</title>
 	<link href="http://localhost/atom.xml" rel="self" />
 	<link href="http://localhost/" />
-	<updated>2016-07-29T20:34:33+08:00</updated>
+	<updated>2016-07-29T21:19:17+08:00</updated>
 	<id>http://localhost/</id>
 	<author>
 		<name>LH</name>
 		<email>tanlonghaicn@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>短期内的事情</title>
+		<link href="http://localhost/posts/the-short-future.html" />
+		<updated>2016-07-29T00:00:00+08:00</updated>
+		<id>http://localhost/posts/the-short-future.html</id>
+		<content type="html"><![CDATA[<p>折腾了一天，终于是把昨天晚上的想法付诸实现了。还是有感于自己最近几年几乎没有做什么实事。而最近阅读到的许多书籍涉及的却是小时梦想中的人。就当是为了对得起小时候的梦想吧，改掉之前的懒散气息，默默的加油哦。</p>
+
+<p>那么，第一件事情先把下月十五号之前的任务完成。</p>
+
+<p>今后，我也会经常在这里记录开发中遇到和解决的各种问题，与技术有关的思考，就当是记事本啦。</p>
+
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>像黑客一样写自己的技术博客</title>
