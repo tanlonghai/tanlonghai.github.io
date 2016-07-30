@@ -3,12 +3,22 @@
 	<title>LH</title>
 	<link href="http://localhost/atom.xml" rel="self" />
 	<link href="http://localhost/" />
-	<updated>2016-07-29T22:45:23+08:00</updated>
+	<updated>2016-07-30T10:21:33+08:00</updated>
 	<id>http://localhost/</id>
 	<author>
 		<name>LH</name>
 		<email>tanlonghaicn@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>短期内的事情</title>
+		<link href="http://localhost/posts/create-blog-with-github-and-jekyll.html" />
+		<updated>2016-07-30T00:00:00+08:00</updated>
+		<id>http://localhost/posts/create-blog-with-github-and-jekyll.html</id>
+		<content type="html"><![CDATA[<p>在安装使用jekyll的时候需要ruby库和python环境的支持。在ruby相关环境的安装过程中会出现许多gem库无法下载的情况（可能是和GWF有关），“bundle install”命令会安装项目依赖的所有gem包。</p>
+
+]]></content>
+	</entry>
 	
 	<entry>
 		<title>短期内的事情</title>
