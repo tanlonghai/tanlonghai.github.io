@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 短期内的事情
+title: github与jekyll环境安装问题
 category: thinking
 ---
 
