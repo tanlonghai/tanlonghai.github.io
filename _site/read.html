@@ -25,7 +25,6 @@ void main()
     <![endif]-->
     <script src="//cdn.bootcss.com/jquery/1.7.1/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
-    <title>longhai's Road</title>
   </head>
   <body>
     <div id="clickload">假装异步加载中...</div>
@@ -37,7 +36,7 @@ void main()
             <nav id="menu">
                 <ul class="header-nav">
                     <li><a href="https://github.com/tanlonghai" target="_blank">Github</a></li>
-                    <li><a href="/read">Read</a></li>
+                    <li class="current"><a href="/read">Read</a></li>
                     <li><a href="/about">About</a></li>
                     <li><a href="https://github.com/tanlonghai" class="menu-rss" target="_blank"></a></li>
                 </ul>
@@ -45,50 +44,31 @@ void main()
             <div class="clear"></div>
         </div>
 
-                <div id="contents">
-            <section id="content">
-            
-<article class="post">
-    <div class="date">
-        <span class="day">30</span>
-        <span class="month">Jul</span>
-        <span class="year">2016</span>
-    </div>
-     <header>
-        <h2><a href="/create-blog-with-github-and-jekyll.html" title="github与jekyll环境安装问题">github与jekyll环境安装问题</a></h2>
-     </header>
-     <div class="con">
-        <p>
-            在安装使用jekyll的时候需要ruby库和python环境的支持。在ruby相关环境的安装过程中会出现许多gem库无法下载的情况（可能是和GWF有关），“bundle install”命令会安装项目依赖的所有gem包。
-
-
-            <a class="more" href="/create-blog-with-github-and-jekyll.html">[继续阅读]</a>
-        </p>
-     </div>
-</article>
-
-<article class="post">
-    <div class="date">
-        <span class="day">29</span>
-        <span class="month">Jul</span>
-        <span class="year">2016</span>
-    </div>
-     <header>
-        <h2><a href="/the-short-future.html" title="短期内的事情">短期内的事情</a></h2>
-     </header>
-     <div class="con">
-        <p>
-            折腾了一天，终于是把昨天晚上的想法付诸实现了。还是有感于自己最近几年几乎没有做什么实事。而最近阅读到的许多书籍涉及的却是小时梦想中的人。就当是为了对得起小时候的梦想吧，改掉之前的懒散气息，默默的加油哦。
-
-            <a class="more" href="/the-short-future.html">[继续阅读]</a>
-        </p>
-     </div>
-</article>
-
-
-            </section>
-            <div class="clear"></div>
+                <section id="content" class="page">
+            <article class="post">
+             <div class="con"><article>
+    <div id="archives">
+        <div id="douban">
+<!--
+            <div id="bookreading" class="douban-list"></div>
+            <div id="bookread" class="douban-list"></div>
+            <div id="bookwish" class="douban-list"></div>
+-->
         </div>
+    </div>
+</article>
+<script type="text/javascript" src="/media/js/douban.api.js"></script>
+<script type="text/javascript">
+    var dbapi = new DoubanApi();
+    $(document).ready(function(){
+        dbapi.show();
+    });
+</script>
+</div>
+            </article>
+            <div class="clear"></div>
+        </section>
+        <div class="clear"></div>
                 <footer id="footer">
             <div class="foot">
                 <a id="gotop" href="javascript:void(0);" onclick="return false;">TOP</a>

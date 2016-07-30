@@ -1,34 +1,22 @@
-safe: false
-permalink: /posts/:title.html
-exclude:
-  - README.md
+markdown: kramdown
+permalink: /:title.html
+url: tanlonghai.github.io
+lsi: true
+rouge: true
+safe: true
 
-name: LH
-host: localhost
-desc: The dream of sparrow
+# presonal config
+title: longhai's Road
+feed: tanlonghai.github.io
+comments: disqus
 
-custom:
-    category:
-        default: Default Category
-        another: Another Category
-    categories:
-      - name:  default
-        title: Default Category
+author:
+  name: longhai
+  nickname: sea
+  email: tanlonghaicn@gmail.com
+  gmail: tanlonghaicn@gmail.com
+  site: tanlonghai.github.io
 
-      - name:  another
-        title: Another Category
-
-    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
-
-meta:
-    author:
-        name: LH
-        email: tanlonghaicn@gmail.com
-        disqus: sea                                 # Disqus缩略标识
-        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github: https://github.com/tanlonghai       # GitHub账号
-        gravatar: 6a8dfad2d0ef1ff2510c3de2637dfe35  # Gravatar头像标识
-
-    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
-    gapi: http://www.google.com/jsapi               # Google API地址
-    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
+seo: 
+  keyword: 
+  description: 
