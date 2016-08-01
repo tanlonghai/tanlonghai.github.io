@@ -10,7 +10,7 @@ category: thinking
 <!--more-->
 2、com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'sa'.(系统采取了windows模式)：
 
-由于最开始一直是以"windows授权"的模式登录的，所以需要改为一下操作：
+由于最开始一直是以"windows授权"的模式登录的，所以需要进行以下操作：
 
 1）利用windows授权登录数据库
 

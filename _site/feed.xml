@@ -4,7 +4,7 @@
         <title>longhai's Road</title>
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
         <link></link>
-        <lastBuildDate>2016-08-01T23:41:40+08:00</lastBuildDate>
+        <lastBuildDate>2016-08-01T23:44:05+08:00</lastBuildDate>
         <webMaster>tanlonghaicn@gmail.com</webMaster>
         
         <item>
@@ -20,7 +20,7 @@
 <!--more-->
 <p>2、com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘sa’.(系统采取了windows模式)：</p>
 
-<p>由于最开始一直是以”windows授权”的模式登录的，所以需要改为一下操作：</p>
+<p>由于最开始一直是以”windows授权”的模式登录的，所以需要进行以下操作：</p>
 
 <p>1）利用windows授权登录数据库</p>
 
